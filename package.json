@@ -1,20 +1,28 @@
 {
-  "name": "nextcss",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-chessground-starter",
+  "version": "0.1.0",
+  "description": "Starter package for React and Chessground",
   "main": "index.js",
+  "author": "victorocna <victor@chesscoders.com>",
+  "homepage": "https://github.com/victorocna/react-chessground-starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorocna/react-chessground-starter.git"
+  },
+  "keywords": [
+    "react",
+    "chessground"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "chessground": "^7.9.1",
-    "next": "^9.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "chessground": "^7.9.3",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   }
 }
